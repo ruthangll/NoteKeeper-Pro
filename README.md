@@ -6,9 +6,9 @@ NoteKeeper Pro merupakan aplikasi pencatatan berbasis **React Native** menggunak
 
 ---
 
-# Fitur Aplikasi
+## Fitur Aplikasi
 
-## Level 1 (Core Features)
+### Level 1 (Core Features)
 
 - Create (Tambah Catatan)
 - Read (Menampilkan Catatan)
@@ -18,7 +18,7 @@ NoteKeeper Pro merupakan aplikasi pencatatan berbasis **React Native** menggunak
 - FlatList
 - Empty State
 
-## Level 2 (Fitur yang Dipilih)
+### Level 2 (Fitur Tambahan)
 
 - Dark Mode
 - Search Catatan
@@ -28,91 +28,91 @@ NoteKeeper Pro merupakan aplikasi pencatatan berbasis **React Native** menggunak
 
 ---
 
-# Screenshot Aplikasi
+## Screenshot Aplikasi
 
-## 1. Daftar Item
+### 1. Daftar Item
 
-![Home](./screenshots/home.jpeg)
+![Home](assets/images/screenshots/home.jpeg)
 
 Halaman utama aplikasi yang menampilkan daftar catatan beserta statistik.
 
 ---
 
-## 2. Search
+### 2. Search
 
-![Search](./screenshots/search.jpeg)
+![Search](assets/images/screenshots/search.jpeg)
 
 Fitur pencarian catatan berdasarkan kata kunci.
 
 ---
 
-## 3. Filter
+### 3. Filter
 
-![Filter](./screenshots/filter.jpeg)
+![Filter](assets/images/screenshots/filter.jpeg)
 
 Filter catatan berdasarkan kategori.
 
 ---
 
-## 4. Dark Mode
+### 4. Dark Mode
 
-![Dark Mode](./screenshots/darkmode.jpeg)
+![Dark Mode](assets/images/screenshots/darkmode.jpeg)
 
 Tampilan aplikasi ketika Dark Mode diaktifkan.
 
 ---
 
-## 5. Edit Catatan
+### 5. Edit Catatan
 
-![Edit](./screenshots/edit.jpeg)
+![Edit](assets/images/screenshots/edit.jpeg)
 
 Pengguna dapat memperbarui isi catatan yang telah dibuat.
 
 ---
 
-## 6. Cache API
+### 6. Cache API
 
-![Cache API](./screenshots/cacheAPI.jpeg)
+![Cache API](assets/images/screenshots/cacheAPI.jpeg)
 
 Data API disimpan menggunakan AsyncStorage sehingga dapat digunakan kembali tanpa melakukan proses fetch ulang.
 
 ---
 
-## 7. Bukti Persistensi (Sebelum Aplikasi Ditutup)
+### 7. Bukti Persistensi (Sebelum Aplikasi Ditutup)
 
-![Before Close](./screenshots/beforeClose.jpeg)
+![Before Close](assets/images/screenshots/beforeClose.jpeg)
 
 ---
 
-## 8. Bukti Persistensi (Setelah Aplikasi Dibuka Kembali)
+### 8. Bukti Persistensi (Setelah Aplikasi Dibuka Kembali)
 
-![After Open](./screenshots/afterOpen.jpeg)
+![After Open](assets/images/screenshots/afterOpen.jpeg)
 
 Data tetap tersedia setelah aplikasi ditutup dan dibuka kembali. Hal ini membuktikan bahwa mekanisme persistensi menggunakan AsyncStorage berjalan dengan baik.
 
 ---
 
-# Cara Menjalankan Aplikasi
+## Cara Menjalankan Aplikasi
 
-Clone repository
+### Clone repository
 
 ```bash
 git clone https://github.com/ruthangll/NoteKeeper-Pro.git
 ```
 
-Masuk ke folder project
+### Masuk ke folder project
 
 ```bash
 cd NoteKeeper-Pro
 ```
 
-Install dependency
+### Install dependency
 
 ```bash
 npm install
 ```
 
-Jalankan aplikasi
+### Jalankan aplikasi
 
 ```bash
 npx expo start
@@ -122,7 +122,7 @@ Kemudian scan QR Code menggunakan aplikasi **Expo Go** pada perangkat Android ma
 
 ---
 
-# Tech Stack
+## Tech Stack
 
 - React Native
 - Expo
@@ -132,14 +132,12 @@ Kemudian scan QR Code menggunakan aplikasi **Expo Go** pada perangkat Android ma
 
 ---
 
-# Expo Snack
+## Expo Snack
 
-https://snack.expo.dev/
-
-> Ganti dengan link Expo Snack milikmu.
+Tambahkan link Expo Snack apabila diperlukan.
 
 ---
 
-# GitHub Repository
+## GitHub Repository
 
 https://github.com/ruthangll/NoteKeeper-Pro
