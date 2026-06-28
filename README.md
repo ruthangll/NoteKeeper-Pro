@@ -2,19 +2,19 @@
 
 ## Deskripsi Aplikasi
 
-NoteKeeper Pro merupakan aplikasi pencatatan berbasis React Native menggunakan Expo dengan penyimpanan lokal menggunakan AsyncStorage. Aplikasi ini memungkinkan pengguna untuk menambahkan, mengedit, menghapus, mencari, serta memfilter catatan berdasarkan kategori. Seluruh data tetap tersimpan meskipun aplikasi ditutup dan dibuka kembali.
+NoteKeeper Pro merupakan aplikasi pencatatan berbasis **React Native** menggunakan **Expo** dengan penyimpanan lokal menggunakan **AsyncStorage**. Aplikasi ini memungkinkan pengguna untuk membuat, melihat, mengedit, menghapus, mencari, dan memfilter catatan berdasarkan kategori. Seluruh data tetap tersimpan meskipun aplikasi ditutup dan dibuka kembali sehingga pengguna tidak kehilangan data.
 
 ---
 
-# Daftar Fitur
+# Fitur Aplikasi
 
-## Level 1 (Core)
+## Level 1 (Core Features)
 
 - Create (Tambah Catatan)
 - Read (Menampilkan Catatan)
 - Update (Edit Catatan)
 - Delete (Hapus Catatan)
-- AsyncStorage Persistence
+- Persistensi Data menggunakan AsyncStorage
 - FlatList
 - Empty State
 
@@ -32,49 +32,63 @@ NoteKeeper Pro merupakan aplikasi pencatatan berbasis React Native menggunakan E
 
 ## 1. Daftar Item
 
-![Daftar Item](./assets/screenshots/home.jpeg)
+![Home](./screenshots/home.jpeg)
+
+Halaman utama aplikasi yang menampilkan daftar catatan beserta statistik.
 
 ---
 
 ## 2. Search
 
-![Search](./assets/screenshots/search.jpeg)
+![Search](./screenshots/search.jpeg)
+
+Fitur pencarian catatan berdasarkan kata kunci.
 
 ---
 
-## 3. Filter Kategori
+## 3. Filter
 
-![Filter](./assets/screenshots/filter.jpeg)
+![Filter](./screenshots/filter.jpeg)
+
+Filter catatan berdasarkan kategori.
 
 ---
 
 ## 4. Dark Mode
 
-![Dark Mode](./assets/screenshots/darkmode.jpeg)
+![Dark Mode](./screenshots/darkmode.jpeg)
+
+Tampilan aplikasi ketika Dark Mode diaktifkan.
 
 ---
 
 ## 5. Edit Catatan
 
-![Edit](./assets/screenshots/edit.jpeg)
+![Edit](./screenshots/edit.jpeg)
+
+Pengguna dapat memperbarui isi catatan yang telah dibuat.
 
 ---
 
 ## 6. Cache API
 
-![Cache API](./assets/screenshots/cacheAPI.jpeg)
+![Cache API](./screenshots/cacheAPI.jpeg)
+
+Data API disimpan menggunakan AsyncStorage sehingga dapat digunakan kembali tanpa melakukan proses fetch ulang.
 
 ---
 
 ## 7. Bukti Persistensi (Sebelum Aplikasi Ditutup)
 
-![Before Close](./assets/screenshots/beforeClose.jpeg)
+![Before Close](./screenshots/beforeClose.jpeg)
 
 ---
 
 ## 8. Bukti Persistensi (Setelah Aplikasi Dibuka Kembali)
 
-![After Open](./assets/screenshots/afterOpen.jpeg)
+![After Open](./screenshots/afterOpen.jpeg)
+
+Data tetap tersedia setelah aplikasi ditutup dan dibuka kembali. Hal ini membuktikan bahwa mekanisme persistensi menggunakan AsyncStorage berjalan dengan baik.
 
 ---
 
@@ -104,7 +118,7 @@ Jalankan aplikasi
 npx expo start
 ```
 
-Kemudian scan QR Code menggunakan aplikasi **Expo Go**.
+Kemudian scan QR Code menggunakan aplikasi **Expo Go** pada perangkat Android maupun iOS.
 
 ---
 
@@ -120,9 +134,9 @@ Kemudian scan QR Code menggunakan aplikasi **Expo Go**.
 
 # Expo Snack
 
-Tambahkan link Expo Snack di bawah ini setelah project diunggah.
-
 https://snack.expo.dev/
+
+> Ganti dengan link Expo Snack milikmu.
 
 ---
 
