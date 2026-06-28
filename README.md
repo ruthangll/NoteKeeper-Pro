@@ -30,67 +30,39 @@ NoteKeeper Pro merupakan aplikasi pencatatan berbasis **React Native** menggunak
 
 ## Screenshot Aplikasi
 
-### 1. Daftar Item
+## 1. Daftar Item
 
-![Home](assets/images/screenshots/home.jpeg)
-
-Halaman utama aplikasi yang menampilkan daftar catatan beserta statistik.
+![Home](assets/screenshots/home.jpeg)
 
 ---
 
-### 2. Search
+## 2. Search
 
-![Search](assets/images/screenshots/search.jpeg)
-
-Fitur pencarian catatan berdasarkan kata kunci.
+![Search](assets/screenshots/search.jpeg)
 
 ---
 
-### 3. Filter
+## 3. Filter
 
-![Filter](assets/images/screenshots/filter.jpeg)
-
-Filter catatan berdasarkan kategori.
+![Filter](assets/screenshots/filter.jpeg)
 
 ---
 
-### 4. Dark Mode
+## 4. Dark Mode
 
-![Dark Mode](assets/images/screenshots/darkmode.jpeg)
-
-Tampilan aplikasi ketika Dark Mode diaktifkan.
+![Dark Mode](assets/screenshots/darkmode.jpeg)
 
 ---
 
-### 5. Edit Catatan
+## 5. Edit Catatan
 
-![Edit](assets/images/screenshots/edit.jpeg)
-
-Pengguna dapat memperbarui isi catatan yang telah dibuat.
+![Edit](assets/screenshots/edit.jpeg)
 
 ---
 
-### 6. Cache API
+## 6. Cache API
 
-![Cache API](assets/images/screenshots/cacheAPI.jpeg)
-
-Data API disimpan menggunakan AsyncStorage sehingga dapat digunakan kembali tanpa melakukan proses fetch ulang.
-
----
-
-### 7. Bukti Persistensi (Sebelum Aplikasi Ditutup)
-
-![Before Close](assets/images/screenshots/beforeClose.jpeg)
-
----
-
-### 8. Bukti Persistensi (Setelah Aplikasi Dibuka Kembali)
-
-![After Open](assets/images/screenshots/afterOpen.jpeg)
-
-Data tetap tersedia setelah aplikasi ditutup dan dibuka kembali. Hal ini membuktikan bahwa mekanisme persistensi menggunakan AsyncStorage berjalan dengan baik.
-
----
+![Cache API](assets/screenshots/cacheAPI.jpeg)
 
 ## Cara Menjalankan Aplikasi
 
