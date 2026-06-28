@@ -106,7 +106,7 @@ Kemudian scan QR Code menggunakan aplikasi **Expo Go** pada perangkat Android ma
 
 ## Expo Snack
 
-Tambahkan link Expo Snack apabila diperlukan.
+https://snack.expo.dev/@ruthangelsitorus/cd1bb8
 
 ---
 
