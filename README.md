@@ -1,50 +1,139 @@
-# Welcome to your Expo app 👋
+# NoteKeeper Pro
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Deskripsi Aplikasi
 
-## Get started
+NoteKeeper Pro merupakan aplikasi pencatatan berbasis React Native menggunakan Expo dengan penyimpanan lokal menggunakan AsyncStorage. Pengguna dapat membuat, mengedit, menghapus, mencari, dan mengelompokkan catatan berdasarkan kategori. Seluruh data tetap tersimpan meskipun aplikasi ditutup dan dibuka kembali.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## Fitur Aplikasi
 
-2. Start the app
+### Level 1 (Wajib)
 
-   ```bash
-   npx expo start
-   ```
+* Create (Tambah Catatan)
+* Read (Menampilkan Catatan)
+* Update (Edit Catatan)
+* Delete (Hapus Catatan)
+* AsyncStorage Persistence
+* FlatList
+* Empty State
 
-In the output, you'll find options to open the app in a
+### Level 2 (Dipilih)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+* Dark Mode
+* Search Catatan
+* Filter Kategori
+* Statistik Catatan
+* Cache API
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## Screenshot
 
-When you're ready, run:
+### 1. Daftar Item (Home)
 
-```bash
-npm run reset-project
+![Home](assets/screenshots/home.jpeg)
+
+---
+
+### 2. Fitur Level 2 - Search
+
+![Search](assets/screenshots/search.jpeg)
+
+---
+
+### 3. Fitur Level 2 - Filter Kategori
+
+![Filter](assets/screenshots/filter.jpeg)
+
+---
+
+### 4. Fitur Level 2 - Dark Mode
+
+![Dark Mode](assets/screenshots/darkmode.jpeg)
+
+---
+
+### 5. Fitur Level 2 - Edit Catatan
+
+![Edit](assets/screenshots/edit.jpeg)
+
+---
+
+### 6. Fitur Level 2 - Cache API
+
+![Cache API](assets/screenshots/cacheAPI.jpeg)
+
+---
+
+### 7. Bukti Persistensi (Sebelum Aplikasi Ditutup)
+
+> Tambahkan screenshot sebelum aplikasi ditutup.
+
+```text
+assets/screenshots/beforeClose.jpeg
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+### 8. Bukti Persistensi (Setelah Aplikasi Dibuka Kembali)
 
-To learn more about developing your project with Expo, look at the following resources:
+> Tambahkan screenshot setelah aplikasi dibuka kembali.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```text
+assets/screenshots/afterOpen.jpeg
+```
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+## Cara Menjalankan
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+1. Clone repository
+
+```bash
+git clone https://github.com/ruthangll/NoteKeeper-Pro.git
+```
+
+2. Masuk ke folder project
+
+```bash
+cd NoteKeeper-Pro
+```
+
+3. Install dependency
+
+```bash
+npm install
+```
+
+4. Jalankan aplikasi
+
+```bash
+npx expo start
+```
+
+5. Scan QR Code menggunakan Expo Go.
+
+---
+
+## Tech Stack
+
+* React Native
+* Expo
+* TypeScript
+* AsyncStorage
+* Expo SecureStore
+
+---
+
+## Expo Snack
+
+Tambahkan link Expo Snack di sini.
+
+https://snack.expo.dev/
+
+---
+
+## GitHub Repository
+
+https://github.com/ruthangll/NoteKeeper-Pro
